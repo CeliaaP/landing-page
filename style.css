@@ -1,0 +1,56 @@
+.header {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+
+}
+
+.body {
+    background-color: #1f2937;
+    display: flex;
+    color: white;
+}
+
+.random {
+    
+}
+
+.quote {
+background-color: #E5E7EB;
+display: flex;
+justify-content: center;
+flex-direction: column;
+font-size: 36px;
+color: #1F2937;
+margin: 0px;
+padding: 100px;
+padding-left: 325px;
+padding-right: 325px;
+}
+
+#thor {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.call {
+background-color: #3882F6;
+}
+
+.footer {
+background-color: #1f2937;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 18px;
+}
