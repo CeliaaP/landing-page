@@ -1,8 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     background-color: #1f2937;
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 ul {
@@ -12,16 +24,46 @@ ul {
     gap: 10px;
 
 
+
 }
+ a {
+    text-decoration: none;
+    color: #d5d3d3;
+    font-size: 18px;
+
+    
+ }
 
 .body {
     background-color: #1f2937;
     display: flex;
     color: white;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 900px;
+    padding-left: 150px;
+    justify-content:space-between;
+    
 }
 
-.random {
+img {
+    width: 200px;
+    height: 250px;
+    padding-left:900px;
+    padding-top: 0;
     
+  
+
+}
+.awesome {
+    font-size: 48px;
+}
+.random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 150px;
 }
 
 .quote {
@@ -35,16 +77,52 @@ margin: 0px;
 padding: 100px;
 padding-left: 325px;
 padding-right: 325px;
+padding-bottom: 50px;
+padding-top: 50px;
+font-style: italic;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 #thor {
-    font-weight: 200;
     font-size: 20px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 525px;
 }
 
 .call {
 background-color: #3882F6;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 175px;
+margin-right: 175px;
+margin-bottom: 100px;
+margin-top: 100px;
+display: flex;
+flex-direction: column;
+border-radius: 7px;
+padding: 50px;
+padding-right: 400px;
+font-size: 36px;
+color: #1F2937;
+
+
 }
+
+button {
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 8px;
+    color: white;
+    width: 120px;
+    padding: 7px;
+
+}
+
+.body button {
+border: none;}
+
+
+
 
 .footer {
 background-color: #1f2937;
@@ -53,4 +131,6 @@ display: flex;
 align-items: center;
 justify-content: center;
 font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+padding: 30px;
 }
